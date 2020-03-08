@@ -74,16 +74,19 @@ ul{
     width: 270px;
     float: left;
     background: #b10333;
+    margin: 0 0 20px 193px;
 }
 #segundario {
     width: 270px;
     background: #69001d;
+    margin: 0 0 20px 15px;
     float: left;
 }
 #lateral {
     width: 180px;
     float: left;
     background: #8400ff;
+    margin: 0 0 20px -750px;
 }
 #rodape{
     clear: both;
