@@ -1,10 +1,14 @@
 /* Estrutura do site  */
- * {
+@font-face{
+    font-family: 'Titulo';
+    src: url('../roboto/Roboto-Regular.woff2');
+} 
+* {
      margin : 0;
      padding: 0;
  }
  body{
-     font-family: 'Times New Roman', Times, serif;
+     font-family: "Titulo";
      background: #fff url('../img/fundo.png') repeat-x;
  }
  #container {
@@ -29,7 +33,7 @@ ul{
     margin: 0;
     list-style: none;
     
-}
+} 
 #topo ul{
     margin-top: 30px;
     background: #b10333;
@@ -80,4 +84,15 @@ ul{
     width: 180px;
     float: left;
     background: #8400ff;
+}
+#rodape{
+    clear: both;
+    background: #294c71;
+    padding: 20px;
+}
+#rodape p {
+    width: 750px;
+    margin: 0 auto;
+    color: #fff;
+    text-align: center;
 }
