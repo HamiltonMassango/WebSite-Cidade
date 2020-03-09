@@ -18,7 +18,7 @@
 
 #topo {
     height: 150px;
-    background: url(../img/detalhe-topo.png) no-repeat right top;
+    background: url('../img/detalhe-topo.png') no-repeat right top;
     padding-top: 25px;
 }
 .logo {
@@ -76,6 +76,13 @@ ul{
     background: #b10333;
     margin: 0 0 20px 193px;
 }
+#duas-colunas #primario{
+    width: 555px;
+}
+#uma-coluna #primario{
+    width: 750px;
+    margin: 0 0 20px 0;
+}
 #segundario {
     width: 270px;
     background: #69001d;
@@ -85,7 +92,7 @@ ul{
 #lateral {
     width: 180px;
     float: left;
-    background: #8400ff;
+   
     margin: 0 0 20px -750px;
 }
 #rodape{
@@ -98,4 +105,22 @@ ul{
     margin: 0 auto;
     color: #fff;
     text-align: center;
+}
+
+/* Caixa */
+.caixa {
+    margin: 10px 0;
+    padding: 5px;
+    background: #f3f3f3 url('../img/fundo-caixa.png');
+}
+h2 {
+    font-size: 1em;
+    background: #294c71;
+    color: #fff;
+    padding: 5px;
+}
+.caixa-conteudo {
+    background: #fff;
+    padding: 5px;
+    margin-top: 5px;
 }
